@@ -1,0 +1,20 @@
+{
+  "session_id": "retirement-plan",
+  "turns": [
+    {
+      "role": "user",
+      "content": "I want to retire in 15 years with monthly passive income.",
+      "ts": 1778520061.058736
+    },
+    {
+      "role": "assistant",
+      "content": "Planning conversations (retirement, FIRE, education) run through a dedicated planner — not implemented in this build.",
+      "ts": 1778520065.984577
+    }
+  ],
+  "last_intent": "financial_planning",
+  "last_tickers": [],
+  "updated_at": 1778520065.9845781,
+  "discussion_log": [],
+  "orchestrator_meta": {}
+}

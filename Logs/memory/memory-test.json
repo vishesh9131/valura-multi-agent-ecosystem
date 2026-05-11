@@ -1,0 +1,30 @@
+{
+  "session_id": "memory-test",
+  "turns": [
+    {
+      "role": "user",
+      "content": "I never invest in tobacco or gambling companies.",
+      "ts": 1778517520.117805
+    },
+    {
+      "role": "assistant",
+      "content": "Thank you for sharing your preferences. Avoiding investments in tobacco and gambling companies is a common ethical or values-based investing choice. If you’d like, I can help explain how to identify or screen out these companies from your portfolio or discuss responsible investing strategies. Let me know how you’d like to proceed!",
+      "ts": 1778517526.0521019
+    },
+    {
+      "role": "user",
+      "content": "Suggest high dividend stocks.",
+      "ts": 1778517568.6967628
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the available information, here are some high dividend stocks highlighted by Morningstar that are not associated with tobacco or gambling sectors:\n\n**Examples from Morningstar’s List:**\n- **PepsiCo (PEP):** Operates in beverages (nonalcoholic). Known as a dividend aristocrat, meaning it has increased its dividend for at least 25 consecutive years.\n- **Accenture (ACN):** A global professional services company.\n- **Qualcomm (QCOM):** Focuses on technology and semiconductors.\n- **Medtronic (MDT):** Operates in medical devices.\n- **Mondelez International (MDLZ):** Specializes in snacks and food products.\n- **Kimberly-Clark (KMB):** Consumer products, such as personal care and tissue.\n- **T. Rowe Price (TROW):** Asset management.\n- **DTE Energy (DTE):** Utilities sector.\n- **Regions Financial (RF):** Banking and financial services.\n\n**What to Look For:**\n- Check the company’s industry to ensure it doesn’t have exposure to tobacco or gambling.\n- Look for companies with a history of consistent or growing dividends.\n- Consider companies with strong competitive advantages (“economic moats”).\n- Be cautious—very high yields can sometimes signal higher risk.\n\n**Important:**  \nI can’t verify every company’s full business exposure from this summary alone, so always double-check that a company aligns with your ethical screens before investing. Review the latest company reports and use screening tools to exclude tobacco and gambling involvement. Always verify facts yourself before making investment decisions.",
+      "ts": 1778517580.8860428
+    }
+  ],
+  "last_intent": "product_recommendation",
+  "last_tickers": [],
+  "updated_at": 1778517580.886045,
+  "discussion_log": [],
+  "orchestrator_meta": {}
+}

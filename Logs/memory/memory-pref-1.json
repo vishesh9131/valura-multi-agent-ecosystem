@@ -1,0 +1,60 @@
+{
+  "session_id": "memory-pref-1",
+  "turns": [
+    {
+      "role": "user",
+      "content": "I never invest in tobacco, gambling, or weapons companies.",
+      "ts": 1778511137.1873899
+    },
+    {
+      "role": "assistant",
+      "content": "Thank you for sharing your investment preferences. Avoiding tobacco, gambling, and weapons companies is a common approach for investors who want to align their portfolios with certain ethical or social values. If you have questions about how to identify or exclude these sectors from your investments, or if you’d like to know more about socially responsible investing (SRI) or environmental, social, and governance (ESG) strategies, feel free to ask!",
+      "ts": 1778511141.783637
+    },
+    {
+      "role": "user",
+      "content": "Suggest strong dividend stocks for my portfolio.",
+      "ts": 1778511159.06635
+    },
+    {
+      "role": "assistant",
+      "content": "Product recommendations are handled by a dedicated agent that considers fees, fit, and your profile — not implemented in this build.",
+      "ts": 1778511161.884307
+    },
+    {
+      "role": "user",
+      "content": "Suggest strong dividend stocks for my portfolio.",
+      "ts": 1778513533.657683
+    },
+    {
+      "role": "user",
+      "content": "Suggest strong dividend stocks for my portfolio.",
+      "ts": 1778513687.896717
+    },
+    {
+      "role": "user",
+      "content": "Suggest strong dividend stocks for my portfolio.",
+      "ts": 1778513779.6091158
+    },
+    {
+      "role": "assistant",
+      "content": "I can’t provide a list of specific dividend stocks right now, as there’s no current data available in the provided context. However, I can share a general checklist to help you find strong dividend stocks that also exclude tobacco, gambling, and weapons companies:\n\n**Checklist for Selecting Dividend Stocks (with Exclusions):**\n1. **Dividend History:** Look for companies with a consistent record of paying and growing dividends over several years.\n2. **Dividend Yield:** Compare the dividend yield to industry averages, but be cautious of yields that seem unusually high, as they may signal risk.\n3. **Payout Ratio:** Check that the payout ratio (dividends paid as a percentage of earnings) is sustainable—typically below 60-70% for most industries.\n4. **Financial Health:** Review the company’s balance sheet for manageable debt levels and steady cash flow.\n5. **Sector Exclusions:** Use screening tools or ESG/SRI fund lists to filter out companies involved in tobacco, gambling, or weapons.\n6. **Industry Diversification:** Consider stocks from different sectors (excluding your restricted sectors) to spread risk.\n7. **ESG Ratings:** Some platforms provide ESG (Environmental, Social, Governance) ratings, which can help you avoid companies in restricted industries.\n\nAlways double-check company activities and recent financials before investing, as business lines can change. Consider using reputable stock screeners or consulting with a financial advisor to ensure your selections match your values and financial goals. Remember to verify all facts and data yourself before making investment decisions.",
+      "ts": 1778513846.695034
+    },
+    {
+      "role": "user",
+      "content": "Suggest strong dividend stocks for my portfolio.",
+      "ts": 1778514318.333934
+    },
+    {
+      "role": "assistant",
+      "content": "There’s no specific information available right now about individual dividend stocks, so I can’t suggest names or tickers. However, here’s a practical checklist to help you find strong dividend stocks while avoiding tobacco, gambling, and weapons companies:\n\n1. **Dividend Track Record:** Look for companies with a long history of paying and increasing dividends.\n2. **Dividend Yield:** Compare yields to industry averages, but be cautious of unusually high yields.\n3. **Payout Ratio:** A sustainable payout ratio (often below 60-70%) suggests the dividend is well-supported by earnings.\n4. **Financial Strength:** Check for stable earnings, manageable debt, and strong cash flow.\n5. **Exclusion Screening:** Use stock screeners or ESG (Environmental, Social, Governance) filters to exclude tobacco, gambling, and weapons companies.\n6. **Diversification:** Select companies from different sectors (excluding your restricted sectors) to reduce risk.\n7. **ESG/SRI Funds:** Consider looking at the holdings of ESG or SRI (Socially Responsible Investing) funds for ideas, as these often exclude the sectors you want to avoid.\n\nAlways research each company thoroughly and verify that it aligns with your values and financial goals before investing.",
+      "ts": 1778514338.6896052
+    }
+  ],
+  "last_intent": "product_recommendation",
+  "last_tickers": [],
+  "updated_at": 1778514338.689611,
+  "discussion_log": [],
+  "orchestrator_meta": {}
+}

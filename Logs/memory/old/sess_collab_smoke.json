@@ -1,0 +1,845 @@
+{
+  "session_id": "sess_collab_smoke",
+  "turns": [
+    {
+      "role": "user",
+      "content": "What should I know about my portfolio and SPY?",
+      "ts": 1778505164.112426
+    },
+    {
+      "role": "assistant",
+      "content": "[Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_id': 'u1'}.\n\n[Market] Focusing on I. Quote snapshot: {'ticker': 'I', 'price': 146.0, 'currency': 'USD', 'name': 'I', 'sector': 'Technology'}. 21d return payload: {'ticker': 'I', 'return_pct': None, 'note': 'insufficient_history'}. Heard from portfolio agent: \"[Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_id': 'u1'}.\"\n\n[Conversation] Thread summary: user: What should I know about my portfolio and SPY?. Handoff hint: {'suggested_intent': 'portfolio_health', 'last_intent': 'investment_strategy'}. Echo portfolio: [Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profi… Echo market: [Market] Focusing on I. Quote snapshot: {'ticker': 'I', 'price': 146.0, 'currency': 'USD', 'name': 'I', 'sector': 'Techn…\n\n\nEducational context only — not personalised investment advice. Past performance does not predict future results.",
+      "ts": 1778505164.115411
+    },
+    {
+      "role": "user",
+      "content": "What should I know about my portfolio and SPY?",
+      "ts": 1778505171.8850381
+    },
+    {
+      "role": "assistant",
+      "content": "[Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_id': 'u1'}.\n\n[Market] Focusing on I. Quote snapshot: {'ticker': 'I', 'price': 129.0, 'currency': 'USD', 'name': 'I', 'sector': 'Technology'}. 21d return payload: {'ticker': 'I', 'return_pct': None, 'note': 'insufficient_history'}. Heard from portfolio agent: \"[Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_id': 'u1'}.\"\n\n[Conversation] Thread summary: user: What should I know about my portfolio and SPY? | assistant: [Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_ | user: What should I know about my portfolio and SPY?. Handoff hint: {'suggested_intent': 'portfolio_health', 'last_intent': 'investment_strategy'}. Echo portfolio: [Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profi… Echo market: [Market] Focusing on I. Quote snapshot: {'ticker': 'I', 'price': 129.0, 'currency': 'USD', 'name': 'I', 'sector': 'Techn…\n\n\nEducational context only — not personalised investment advice. Past performance does not predict future results.",
+      "ts": 1778505171.888279
+    },
+    {
+      "role": "user",
+      "content": "What should I know about my portfolio and SPY?",
+      "ts": 1778505189.3529458
+    },
+    {
+      "role": "assistant",
+      "content": "[Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_id': 'u1'}.\n\n[Market] Focusing on I. Quote snapshot: {'ticker': 'I', 'price': 107.0, 'currency': 'USD', 'name': 'I', 'sector': 'Technology'}. 21d return payload: {'ticker': 'I', 'return_pct': None, 'note': 'insufficient_history'}. Heard from portfolio agent: \"[Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_id': 'u1'}.\"\n\n[Conversation] Thread summary: user: What should I know about my portfolio and SPY? | assistant: [Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_ | user: What should I know about my portfolio and SPY? | assistant: [Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_ | user: What should I know about my portfolio and SPY?. Handoff hint: {'suggested_intent': 'portfolio_health', 'last_intent': 'investment_strategy'}. Echo portfolio: [Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profi… Echo market: [Market] Focusing on I. Quote snapshot: {'ticker': 'I', 'price': 107.0, 'currency': 'USD', 'name': 'I', 'sector': 'Techn…\n\n\nEducational context only — not personalised investment advice. Past performance does not predict future results.",
+      "ts": 1778505189.359593
+    },
+    {
+      "role": "user",
+      "content": "What should I know about my portfolio and SPY?",
+      "ts": 1778505337.403585
+    },
+    {
+      "role": "assistant",
+      "content": "[Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_id': 'u1'}.\n\n[Market] Focusing on I. Quote snapshot: {'ticker': 'I', 'price': 142.0, 'currency': 'USD', 'name': 'I', 'sector': 'Technology'}. 21d return payload: {'ticker': 'I', 'return_pct': None, 'note': 'insufficient_history'}. Heard from portfolio agent: \"[Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_id': 'u1'}.\"\n\n[Conversation] Thread summary: assistant: [Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_ | user: What should I know about my portfolio and SPY? | assistant: [Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_ | user: What should I know about my portfolio and SPY? | assistant: [Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_ | user: What should I know about my portfolio and SPY?. Handoff hint: {'suggested_intent': 'portfolio_health', 'last_intent': 'investment_strategy'}. Echo portfolio: [Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profi… Echo market: [Market] Focusing on I. Quote snapshot: {'ticker': 'I', 'price': 142.0, 'currency': 'USD', 'name': 'I', 'sector': 'Techn…\n\n\nEducational context only — not personalised investment advice. Past performance does not predict future results.",
+      "ts": 1778505337.408162
+    },
+    {
+      "role": "user",
+      "content": "What should I know about my portfolio and SPY?",
+      "ts": 1778507035.675711
+    },
+    {
+      "role": "assistant",
+      "content": "[Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_id': 'u1'}.\n\n[Market] Focusing on SPY. Quote snapshot: {'ticker': 'SPY', 'price': 130.0, 'currency': 'USD', 'name': 'SPY', 'sector': 'Technology'}. 21d return payload: {'ticker': 'SPY', 'return_pct': None, 'note': 'insufficient_history'}. Heard from portfolio agent: \"[Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_id': 'u1'}.\"\n\n[Conversation] Thread summary: assistant: [Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_ | user: What should I know about my portfolio and SPY? | assistant: [Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_ | user: What should I know about my portfolio and SPY? | assistant: [Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_ | user: What should I know about my portfolio and SPY?. Handoff hint: {'suggested_intent': 'portfolio_health', 'last_intent': 'investment_strategy'}. Echo portfolio: [Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profi… Echo market: [Market] Focusing on SPY. Quote snapshot: {'ticker': 'SPY', 'price': 130.0, 'currency': 'USD', 'name': 'SPY', 'sector': …\n\n\nEducational context only — not personalised investment advice. Past performance does not predict future results.",
+      "ts": 1778507035.6813629
+    },
+    {
+      "role": "user",
+      "content": "What should I know about my portfolio and SPY?",
+      "ts": 1778507208.703307
+    },
+    {
+      "role": "assistant",
+      "content": "[Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_id': 'u1'}.\n\n[Market] Focusing on SPY. Quote snapshot: {'ticker': 'SPY', 'price': 128.0, 'currency': 'USD', 'name': 'SPY', 'sector': 'Technology'}. 21d return payload: {'ticker': 'SPY', 'return_pct': None, 'note': 'insufficient_history'}. Heard from portfolio agent: \"[Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_id': 'u1'}.\"\n\n[Conversation] Thread summary: assistant: [Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_ | user: What should I know about my portfolio and SPY? | assistant: [Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_ | user: What should I know about my portfolio and SPY? | assistant: [Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_ | user: What should I know about my portfolio and SPY?. Handoff hint: {'suggested_intent': 'portfolio_health', 'last_intent': 'investment_strategy'}. Echo portfolio: [Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profi… Echo market: [Market] Focusing on SPY. Quote snapshot: {'ticker': 'SPY', 'price': 128.0, 'currency': 'USD', 'name': 'SPY', 'sector': …\n\n\nEducational context only — not personalised investment advice. Past performance does not predict future results.",
+      "ts": 1778507208.708174
+    },
+    {
+      "role": "user",
+      "content": "What should I know about my portfolio and SPY?",
+      "ts": 1778507589.1869419
+    },
+    {
+      "role": "assistant",
+      "content": "[Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_id': 'u1'}.\n\n[Market] Focusing on SPY. Quote snapshot: {'ticker': 'SPY', 'price': 114.0, 'currency': 'USD', 'name': 'SPY', 'sector': 'Technology'}. 21d return payload: {'ticker': 'SPY', 'return_pct': None, 'note': 'insufficient_history'}. Heard from portfolio agent: \"[Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_id': 'u1'}.\"\n\n[Conversation] Thread summary: assistant: [Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_ | user: What should I know about my portfolio and SPY? | assistant: [Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_ | user: What should I know about my portfolio and SPY? | assistant: [Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_ | user: What should I know about my portfolio and SPY?. Handoff hint: {'suggested_intent': 'portfolio_health', 'last_intent': 'investment_strategy'}. Echo portfolio: [Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profi… Echo market: [Market] Focusing on SPY. Quote snapshot: {'ticker': 'SPY', 'price': 114.0, 'currency': 'USD', 'name': 'SPY', 'sector': …\n\n\nEducational context only — not personalised investment advice. Past performance does not predict future results.",
+      "ts": 1778507589.191231
+    },
+    {
+      "role": "user",
+      "content": "What should I know about my portfolio and SPY?",
+      "ts": 1778507857.66705
+    },
+    {
+      "role": "assistant",
+      "content": "1 positions on file; largest line is SPY (~100.0% of shares); concentration flag=warning.\n\nfocus on SPY; last price about 115.0 USD.\n\n8 user lines in the rolling window; handoff hint → portfolio_health.\n\nYour question: 'What should I know about my portfolio and SPY?'\n\nEducational context only — not personalised investment advice. Past performance does not predict future results.",
+      "ts": 1778507857.6723268
+    }
+  ],
+  "last_intent": "investment_strategy",
+  "last_tickers": [
+    "SPY"
+  ],
+  "updated_at": 1778507857.673394,
+  "discussion_log": [
+    {
+      "agent": "portfolio",
+      "round": 1,
+      "tool_results": {
+        "list_positions": [
+          {
+            "ticker": "SPY",
+            "quantity": 2,
+            "avg_cost": 400,
+            "currency": "USD"
+          }
+        ],
+        "summarize_allocation": {
+          "mode": "holdings",
+          "lines": [
+            "SPY: qty=2, ~100.0% of share count"
+          ],
+          "position_count": 1
+        },
+        "flag_concentration": {
+          "flag": "warning",
+          "top_holding": "SPY",
+          "top_share_pct": 100.0
+        },
+        "match_tickers_to_positions": {
+          "matched_in_portfolio": [
+            "SPY"
+          ],
+          "not_held": []
+        },
+        "snapshot_risk_profile": {
+          "risk_profile": null,
+          "base_currency": null,
+          "user_id": "u1"
+        }
+      },
+      "utterance": "[Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_id': 'u1'}."
+    },
+    {
+      "agent": "market",
+      "round": 2,
+      "tool_results": {
+        "get_quote": {
+          "ticker": "I",
+          "price": 146.0,
+          "currency": "USD",
+          "name": "I",
+          "sector": "Technology"
+        },
+        "get_recent_returns": {
+          "ticker": "I",
+          "return_pct": null,
+          "note": "insufficient_history"
+        },
+        "sector_benchmark_stub": {
+          "sector": "Technology",
+          "benchmark_proxy": "MSCI World sector ETF (stub)",
+          "comment": "Benchmark levels not fetched in stub mode."
+        },
+        "symbol_resolve": {
+          "candidates": [
+            "I"
+          ],
+          "note": "ticker-shaped"
+        },
+        "market_hours_stub": {
+          "exchange": "US",
+          "regular_session": "09:30-16:00 local (stub)",
+          "status": "unknown_clock"
+        }
+      },
+      "utterance": "[Market] Focusing on I. Quote snapshot: {'ticker': 'I', 'price': 146.0, 'currency': 'USD', 'name': 'I', 'sector': 'Technology'}. 21d return payload: {'ticker': 'I', 'return_pct': None, 'note': 'insufficient_history'}. Heard from portfolio agent: \"[Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_id': 'u1'}.\""
+    },
+    {
+      "agent": "conversation",
+      "round": 3,
+      "tool_results": {
+        "prior_user_turns": [
+          "What should I know about my portfolio and SPY?"
+        ],
+        "format_numbered_list": "1. \"What should I know about my portfolio and SPY?\"",
+        "thread_summary_stub": "user: What should I know about my portfolio and SPY?",
+        "disclaimer_block": "Educational context only — not personalised investment advice. Past performance does not predict future results.",
+        "suggest_handoff_intent": {
+          "suggested_intent": "portfolio_health",
+          "last_intent": "investment_strategy"
+        }
+      },
+      "utterance": "[Conversation] Thread summary: user: What should I know about my portfolio and SPY?. Handoff hint: {'suggested_intent': 'portfolio_health', 'last_intent': 'investment_strategy'}. Echo portfolio: [Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profi… Echo market: [Market] Focusing on I. Quote snapshot: {'ticker': 'I', 'price': 146.0, 'currency': 'USD', 'name': 'I', 'sector': 'Techn…"
+    },
+    {
+      "agent": "portfolio",
+      "round": 1,
+      "tool_results": {
+        "list_positions": [
+          {
+            "ticker": "SPY",
+            "quantity": 2,
+            "avg_cost": 400,
+            "currency": "USD"
+          }
+        ],
+        "summarize_allocation": {
+          "mode": "holdings",
+          "lines": [
+            "SPY: qty=2, ~100.0% of share count"
+          ],
+          "position_count": 1
+        },
+        "flag_concentration": {
+          "flag": "warning",
+          "top_holding": "SPY",
+          "top_share_pct": 100.0
+        },
+        "match_tickers_to_positions": {
+          "matched_in_portfolio": [
+            "SPY"
+          ],
+          "not_held": []
+        },
+        "snapshot_risk_profile": {
+          "risk_profile": null,
+          "base_currency": null,
+          "user_id": "u1"
+        }
+      },
+      "utterance": "[Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_id': 'u1'}."
+    },
+    {
+      "agent": "market",
+      "round": 2,
+      "tool_results": {
+        "get_quote": {
+          "ticker": "I",
+          "price": 129.0,
+          "currency": "USD",
+          "name": "I",
+          "sector": "Technology"
+        },
+        "get_recent_returns": {
+          "ticker": "I",
+          "return_pct": null,
+          "note": "insufficient_history"
+        },
+        "sector_benchmark_stub": {
+          "sector": "Technology",
+          "benchmark_proxy": "MSCI World sector ETF (stub)",
+          "comment": "Benchmark levels not fetched in stub mode."
+        },
+        "symbol_resolve": {
+          "candidates": [
+            "I"
+          ],
+          "note": "ticker-shaped"
+        },
+        "market_hours_stub": {
+          "exchange": "US",
+          "regular_session": "09:30-16:00 local (stub)",
+          "status": "unknown_clock"
+        }
+      },
+      "utterance": "[Market] Focusing on I. Quote snapshot: {'ticker': 'I', 'price': 129.0, 'currency': 'USD', 'name': 'I', 'sector': 'Technology'}. 21d return payload: {'ticker': 'I', 'return_pct': None, 'note': 'insufficient_history'}. Heard from portfolio agent: \"[Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_id': 'u1'}.\""
+    },
+    {
+      "agent": "conversation",
+      "round": 3,
+      "tool_results": {
+        "prior_user_turns": [
+          "What should I know about my portfolio and SPY?",
+          "What should I know about my portfolio and SPY?"
+        ],
+        "format_numbered_list": "1. \"What should I know about my portfolio and SPY?\"\n2. \"What should I know about my portfolio and SPY?\"",
+        "thread_summary_stub": "user: What should I know about my portfolio and SPY? | assistant: [Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_ | user: What should I know about my portfolio and SPY?",
+        "disclaimer_block": "Educational context only — not personalised investment advice. Past performance does not predict future results.",
+        "suggest_handoff_intent": {
+          "suggested_intent": "portfolio_health",
+          "last_intent": "investment_strategy"
+        }
+      },
+      "utterance": "[Conversation] Thread summary: user: What should I know about my portfolio and SPY? | assistant: [Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_ | user: What should I know about my portfolio and SPY?. Handoff hint: {'suggested_intent': 'portfolio_health', 'last_intent': 'investment_strategy'}. Echo portfolio: [Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profi… Echo market: [Market] Focusing on I. Quote snapshot: {'ticker': 'I', 'price': 129.0, 'currency': 'USD', 'name': 'I', 'sector': 'Techn…"
+    },
+    {
+      "agent": "portfolio",
+      "round": 1,
+      "tool_results": {
+        "list_positions": [
+          {
+            "ticker": "SPY",
+            "quantity": 2,
+            "avg_cost": 400,
+            "currency": "USD"
+          }
+        ],
+        "summarize_allocation": {
+          "mode": "holdings",
+          "lines": [
+            "SPY: qty=2, ~100.0% of share count"
+          ],
+          "position_count": 1
+        },
+        "flag_concentration": {
+          "flag": "warning",
+          "top_holding": "SPY",
+          "top_share_pct": 100.0
+        },
+        "match_tickers_to_positions": {
+          "matched_in_portfolio": [
+            "SPY"
+          ],
+          "not_held": []
+        },
+        "snapshot_risk_profile": {
+          "risk_profile": null,
+          "base_currency": null,
+          "user_id": "u1"
+        }
+      },
+      "utterance": "[Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_id': 'u1'}."
+    },
+    {
+      "agent": "market",
+      "round": 2,
+      "tool_results": {
+        "get_quote": {
+          "ticker": "I",
+          "price": 107.0,
+          "currency": "USD",
+          "name": "I",
+          "sector": "Technology"
+        },
+        "get_recent_returns": {
+          "ticker": "I",
+          "return_pct": null,
+          "note": "insufficient_history"
+        },
+        "sector_benchmark_stub": {
+          "sector": "Technology",
+          "benchmark_proxy": "MSCI World sector ETF (stub)",
+          "comment": "Benchmark levels not fetched in stub mode."
+        },
+        "symbol_resolve": {
+          "candidates": [
+            "I"
+          ],
+          "note": "ticker-shaped"
+        },
+        "market_hours_stub": {
+          "exchange": "US",
+          "regular_session": "09:30-16:00 local (stub)",
+          "status": "unknown_clock"
+        }
+      },
+      "utterance": "[Market] Focusing on I. Quote snapshot: {'ticker': 'I', 'price': 107.0, 'currency': 'USD', 'name': 'I', 'sector': 'Technology'}. 21d return payload: {'ticker': 'I', 'return_pct': None, 'note': 'insufficient_history'}. Heard from portfolio agent: \"[Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_id': 'u1'}.\""
+    },
+    {
+      "agent": "conversation",
+      "round": 3,
+      "tool_results": {
+        "prior_user_turns": [
+          "What should I know about my portfolio and SPY?",
+          "What should I know about my portfolio and SPY?",
+          "What should I know about my portfolio and SPY?"
+        ],
+        "format_numbered_list": "1. \"What should I know about my portfolio and SPY?\"\n2. \"What should I know about my portfolio and SPY?\"\n3. \"What should I know about my portfolio and SPY?\"",
+        "thread_summary_stub": "user: What should I know about my portfolio and SPY? | assistant: [Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_ | user: What should I know about my portfolio and SPY? | assistant: [Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_ | user: What should I know about my portfolio and SPY?",
+        "disclaimer_block": "Educational context only — not personalised investment advice. Past performance does not predict future results.",
+        "suggest_handoff_intent": {
+          "suggested_intent": "portfolio_health",
+          "last_intent": "investment_strategy"
+        }
+      },
+      "utterance": "[Conversation] Thread summary: user: What should I know about my portfolio and SPY? | assistant: [Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_ | user: What should I know about my portfolio and SPY? | assistant: [Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_ | user: What should I know about my portfolio and SPY?. Handoff hint: {'suggested_intent': 'portfolio_health', 'last_intent': 'investment_strategy'}. Echo portfolio: [Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profi… Echo market: [Market] Focusing on I. Quote snapshot: {'ticker': 'I', 'price': 107.0, 'currency': 'USD', 'name': 'I', 'sector': 'Techn…"
+    },
+    {
+      "agent": "portfolio",
+      "round": 1,
+      "tool_results": {
+        "list_positions": [
+          {
+            "ticker": "SPY",
+            "quantity": 2,
+            "avg_cost": 400,
+            "currency": "USD"
+          }
+        ],
+        "summarize_allocation": {
+          "mode": "holdings",
+          "lines": [
+            "SPY: qty=2, ~100.0% of share count"
+          ],
+          "position_count": 1
+        },
+        "flag_concentration": {
+          "flag": "warning",
+          "top_holding": "SPY",
+          "top_share_pct": 100.0
+        },
+        "match_tickers_to_positions": {
+          "matched_in_portfolio": [
+            "SPY"
+          ],
+          "not_held": []
+        },
+        "snapshot_risk_profile": {
+          "risk_profile": null,
+          "base_currency": null,
+          "user_id": "u1"
+        }
+      },
+      "utterance": "[Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_id': 'u1'}."
+    },
+    {
+      "agent": "market",
+      "round": 2,
+      "tool_results": {
+        "get_quote": {
+          "ticker": "I",
+          "price": 142.0,
+          "currency": "USD",
+          "name": "I",
+          "sector": "Technology"
+        },
+        "get_recent_returns": {
+          "ticker": "I",
+          "return_pct": null,
+          "note": "insufficient_history"
+        },
+        "sector_benchmark_stub": {
+          "sector": "Technology",
+          "benchmark_proxy": "MSCI World sector ETF (stub)",
+          "comment": "Benchmark levels not fetched in stub mode."
+        },
+        "symbol_resolve": {
+          "candidates": [
+            "I"
+          ],
+          "note": "ticker-shaped"
+        },
+        "market_hours_stub": {
+          "exchange": "US",
+          "regular_session": "09:30-16:00 local (stub)",
+          "status": "unknown_clock"
+        }
+      },
+      "utterance": "[Market] Focusing on I. Quote snapshot: {'ticker': 'I', 'price': 142.0, 'currency': 'USD', 'name': 'I', 'sector': 'Technology'}. 21d return payload: {'ticker': 'I', 'return_pct': None, 'note': 'insufficient_history'}. Heard from portfolio agent: \"[Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_id': 'u1'}.\""
+    },
+    {
+      "agent": "conversation",
+      "round": 3,
+      "tool_results": {
+        "prior_user_turns": [
+          "What should I know about my portfolio and SPY?",
+          "What should I know about my portfolio and SPY?",
+          "What should I know about my portfolio and SPY?",
+          "What should I know about my portfolio and SPY?"
+        ],
+        "format_numbered_list": "1. \"What should I know about my portfolio and SPY?\"\n2. \"What should I know about my portfolio and SPY?\"\n3. \"What should I know about my portfolio and SPY?\"\n4. \"What should I know about my portfolio and SPY?\"",
+        "thread_summary_stub": "assistant: [Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_ | user: What should I know about my portfolio and SPY? | assistant: [Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_ | user: What should I know about my portfolio and SPY? | assistant: [Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_ | user: What should I know about my portfolio and SPY?",
+        "disclaimer_block": "Educational context only — not personalised investment advice. Past performance does not predict future results.",
+        "suggest_handoff_intent": {
+          "suggested_intent": "portfolio_health",
+          "last_intent": "investment_strategy"
+        }
+      },
+      "utterance": "[Conversation] Thread summary: assistant: [Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_ | user: What should I know about my portfolio and SPY? | assistant: [Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_ | user: What should I know about my portfolio and SPY? | assistant: [Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_ | user: What should I know about my portfolio and SPY?. Handoff hint: {'suggested_intent': 'portfolio_health', 'last_intent': 'investment_strategy'}. Echo portfolio: [Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profi… Echo market: [Market] Focusing on I. Quote snapshot: {'ticker': 'I', 'price': 142.0, 'currency': 'USD', 'name': 'I', 'sector': 'Techn…"
+    },
+    {
+      "agent": "portfolio",
+      "round": 1,
+      "tool_results": {
+        "list_positions": [
+          {
+            "ticker": "SPY",
+            "quantity": 2,
+            "avg_cost": 400,
+            "currency": "USD"
+          }
+        ],
+        "summarize_allocation": {
+          "mode": "holdings",
+          "lines": [
+            "SPY: qty=2, ~100.0% of share count"
+          ],
+          "position_count": 1
+        },
+        "flag_concentration": {
+          "flag": "warning",
+          "top_holding": "SPY",
+          "top_share_pct": 100.0
+        },
+        "match_tickers_to_positions": {
+          "matched_in_portfolio": [
+            "SPY"
+          ],
+          "not_held": []
+        },
+        "snapshot_risk_profile": {
+          "risk_profile": null,
+          "base_currency": null,
+          "user_id": "u1"
+        }
+      },
+      "utterance": "[Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_id': 'u1'}."
+    },
+    {
+      "agent": "market",
+      "round": 2,
+      "tool_results": {
+        "get_quote": {
+          "ticker": "SPY",
+          "price": 130.0,
+          "currency": "USD",
+          "name": "SPY",
+          "sector": "Technology"
+        },
+        "get_recent_returns": {
+          "ticker": "SPY",
+          "return_pct": null,
+          "note": "insufficient_history"
+        },
+        "sector_benchmark_stub": {
+          "sector": "Technology",
+          "benchmark_proxy": "MSCI World sector ETF (stub)",
+          "comment": "Benchmark levels not fetched in stub mode."
+        },
+        "symbol_resolve": {
+          "candidates": [
+            "SPY"
+          ],
+          "note": "ticker-shaped"
+        },
+        "market_hours_stub": {
+          "exchange": "US",
+          "regular_session": "09:30-16:00 local (stub)",
+          "status": "unknown_clock"
+        }
+      },
+      "utterance": "[Market] Focusing on SPY. Quote snapshot: {'ticker': 'SPY', 'price': 130.0, 'currency': 'USD', 'name': 'SPY', 'sector': 'Technology'}. 21d return payload: {'ticker': 'SPY', 'return_pct': None, 'note': 'insufficient_history'}. Heard from portfolio agent: \"[Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_id': 'u1'}.\""
+    },
+    {
+      "agent": "conversation",
+      "round": 3,
+      "tool_results": {
+        "prior_user_turns": [
+          "What should I know about my portfolio and SPY?",
+          "What should I know about my portfolio and SPY?",
+          "What should I know about my portfolio and SPY?",
+          "What should I know about my portfolio and SPY?",
+          "What should I know about my portfolio and SPY?"
+        ],
+        "format_numbered_list": "1. \"What should I know about my portfolio and SPY?\"\n2. \"What should I know about my portfolio and SPY?\"\n3. \"What should I know about my portfolio and SPY?\"\n4. \"What should I know about my portfolio and SPY?\"\n5. \"What should I know about my portfolio and SPY?\"",
+        "thread_summary_stub": "assistant: [Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_ | user: What should I know about my portfolio and SPY? | assistant: [Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_ | user: What should I know about my portfolio and SPY? | assistant: [Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_ | user: What should I know about my portfolio and SPY?",
+        "disclaimer_block": "Educational context only — not personalised investment advice. Past performance does not predict future results.",
+        "suggest_handoff_intent": {
+          "suggested_intent": "portfolio_health",
+          "last_intent": "investment_strategy"
+        }
+      },
+      "utterance": "[Conversation] Thread summary: assistant: [Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_ | user: What should I know about my portfolio and SPY? | assistant: [Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_ | user: What should I know about my portfolio and SPY? | assistant: [Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_ | user: What should I know about my portfolio and SPY?. Handoff hint: {'suggested_intent': 'portfolio_health', 'last_intent': 'investment_strategy'}. Echo portfolio: [Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profi… Echo market: [Market] Focusing on SPY. Quote snapshot: {'ticker': 'SPY', 'price': 130.0, 'currency': 'USD', 'name': 'SPY', 'sector': …"
+    },
+    {
+      "agent": "portfolio",
+      "round": 1,
+      "tool_results": {
+        "list_positions": [
+          {
+            "ticker": "SPY",
+            "quantity": 2,
+            "avg_cost": 400,
+            "currency": "USD"
+          }
+        ],
+        "summarize_allocation": {
+          "mode": "holdings",
+          "lines": [
+            "SPY: qty=2, ~100.0% of share count"
+          ],
+          "position_count": 1
+        },
+        "flag_concentration": {
+          "flag": "warning",
+          "top_holding": "SPY",
+          "top_share_pct": 100.0
+        },
+        "match_tickers_to_positions": {
+          "matched_in_portfolio": [
+            "SPY"
+          ],
+          "not_held": []
+        },
+        "snapshot_risk_profile": {
+          "risk_profile": null,
+          "base_currency": null,
+          "user_id": "u1"
+        }
+      },
+      "utterance": "[Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_id': 'u1'}."
+    },
+    {
+      "agent": "market",
+      "round": 2,
+      "tool_results": {
+        "get_quote": {
+          "ticker": "SPY",
+          "price": 128.0,
+          "currency": "USD",
+          "name": "SPY",
+          "sector": "Technology"
+        },
+        "get_recent_returns": {
+          "ticker": "SPY",
+          "return_pct": null,
+          "note": "insufficient_history"
+        },
+        "sector_benchmark_stub": {
+          "sector": "Technology",
+          "benchmark_proxy": "MSCI World sector ETF (stub)",
+          "comment": "Benchmark levels not fetched in stub mode."
+        },
+        "symbol_resolve": {
+          "candidates": [
+            "SPY"
+          ],
+          "note": "ticker-shaped"
+        },
+        "market_hours_stub": {
+          "exchange": "US",
+          "regular_session": "09:30-16:00 local (stub)",
+          "status": "unknown_clock"
+        }
+      },
+      "utterance": "[Market] Focusing on SPY. Quote snapshot: {'ticker': 'SPY', 'price': 128.0, 'currency': 'USD', 'name': 'SPY', 'sector': 'Technology'}. 21d return payload: {'ticker': 'SPY', 'return_pct': None, 'note': 'insufficient_history'}. Heard from portfolio agent: \"[Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_id': 'u1'}.\""
+    },
+    {
+      "agent": "conversation",
+      "round": 3,
+      "tool_results": {
+        "prior_user_turns": [
+          "What should I know about my portfolio and SPY?",
+          "What should I know about my portfolio and SPY?",
+          "What should I know about my portfolio and SPY?",
+          "What should I know about my portfolio and SPY?",
+          "What should I know about my portfolio and SPY?",
+          "What should I know about my portfolio and SPY?"
+        ],
+        "format_numbered_list": "1. \"What should I know about my portfolio and SPY?\"\n2. \"What should I know about my portfolio and SPY?\"\n3. \"What should I know about my portfolio and SPY?\"\n4. \"What should I know about my portfolio and SPY?\"\n5. \"What should I know about my portfolio and SPY?\"",
+        "thread_summary_stub": "assistant: [Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_ | user: What should I know about my portfolio and SPY? | assistant: [Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_ | user: What should I know about my portfolio and SPY? | assistant: [Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_ | user: What should I know about my portfolio and SPY?",
+        "disclaimer_block": "Educational context only — not personalised investment advice. Past performance does not predict future results.",
+        "suggest_handoff_intent": {
+          "suggested_intent": "portfolio_health",
+          "last_intent": "investment_strategy"
+        }
+      },
+      "utterance": "[Conversation] Thread summary: assistant: [Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_ | user: What should I know about my portfolio and SPY? | assistant: [Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_ | user: What should I know about my portfolio and SPY? | assistant: [Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_ | user: What should I know about my portfolio and SPY?. Handoff hint: {'suggested_intent': 'portfolio_health', 'last_intent': 'investment_strategy'}. Echo portfolio: [Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profi… Echo market: [Market] Focusing on SPY. Quote snapshot: {'ticker': 'SPY', 'price': 128.0, 'currency': 'USD', 'name': 'SPY', 'sector': …"
+    },
+    {
+      "agent": "portfolio",
+      "round": 1,
+      "tool_results": {
+        "list_positions": [
+          {
+            "ticker": "SPY",
+            "quantity": 2,
+            "avg_cost": 400,
+            "currency": "USD"
+          }
+        ],
+        "summarize_allocation": {
+          "mode": "holdings",
+          "lines": [
+            "SPY: qty=2, ~100.0% of share count"
+          ],
+          "position_count": 1
+        },
+        "flag_concentration": {
+          "flag": "warning",
+          "top_holding": "SPY",
+          "top_share_pct": 100.0
+        },
+        "match_tickers_to_positions": {
+          "matched_in_portfolio": [
+            "SPY"
+          ],
+          "not_held": []
+        },
+        "snapshot_risk_profile": {
+          "risk_profile": null,
+          "base_currency": null,
+          "user_id": "u1"
+        }
+      },
+      "utterance": "[Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_id': 'u1'}."
+    },
+    {
+      "agent": "market",
+      "round": 2,
+      "tool_results": {
+        "get_quote": {
+          "ticker": "SPY",
+          "price": 114.0,
+          "currency": "USD",
+          "name": "SPY",
+          "sector": "Technology"
+        },
+        "get_recent_returns": {
+          "ticker": "SPY",
+          "return_pct": null,
+          "note": "insufficient_history"
+        },
+        "sector_benchmark_stub": {
+          "sector": "Technology",
+          "benchmark_proxy": "MSCI World sector ETF (stub)",
+          "comment": "Benchmark levels not fetched in stub mode."
+        },
+        "symbol_resolve": {
+          "candidates": [
+            "SPY"
+          ],
+          "note": "ticker-shaped"
+        },
+        "market_hours_stub": {
+          "exchange": "US",
+          "regular_session": "09:30-16:00 local (stub)",
+          "status": "unknown_clock"
+        }
+      },
+      "utterance": "[Market] Focusing on SPY. Quote snapshot: {'ticker': 'SPY', 'price': 114.0, 'currency': 'USD', 'name': 'SPY', 'sector': 'Technology'}. 21d return payload: {'ticker': 'SPY', 'return_pct': None, 'note': 'insufficient_history'}. Heard from portfolio agent: \"[Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_id': 'u1'}.\""
+    },
+    {
+      "agent": "conversation",
+      "round": 3,
+      "tool_results": {
+        "prior_user_turns": [
+          "What should I know about my portfolio and SPY?",
+          "What should I know about my portfolio and SPY?",
+          "What should I know about my portfolio and SPY?",
+          "What should I know about my portfolio and SPY?",
+          "What should I know about my portfolio and SPY?",
+          "What should I know about my portfolio and SPY?",
+          "What should I know about my portfolio and SPY?"
+        ],
+        "format_numbered_list": "1. \"What should I know about my portfolio and SPY?\"\n2. \"What should I know about my portfolio and SPY?\"\n3. \"What should I know about my portfolio and SPY?\"\n4. \"What should I know about my portfolio and SPY?\"\n5. \"What should I know about my portfolio and SPY?\"",
+        "thread_summary_stub": "assistant: [Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_ | user: What should I know about my portfolio and SPY? | assistant: [Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_ | user: What should I know about my portfolio and SPY? | assistant: [Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_ | user: What should I know about my portfolio and SPY?",
+        "disclaimer_block": "Educational context only — not personalised investment advice. Past performance does not predict future results.",
+        "suggest_handoff_intent": {
+          "suggested_intent": "portfolio_health",
+          "last_intent": "investment_strategy"
+        }
+      },
+      "utterance": "[Conversation] Thread summary: assistant: [Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_ | user: What should I know about my portfolio and SPY? | assistant: [Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_ | user: What should I know about my portfolio and SPY? | assistant: [Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_ | user: What should I know about my portfolio and SPY?. Handoff hint: {'suggested_intent': 'portfolio_health', 'last_intent': 'investment_strategy'}. Echo portfolio: [Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profi… Echo market: [Market] Focusing on SPY. Quote snapshot: {'ticker': 'SPY', 'price': 114.0, 'currency': 'USD', 'name': 'SPY', 'sector': …"
+    },
+    {
+      "agent": "portfolio",
+      "round": 1,
+      "tool_results": {
+        "list_positions": [
+          {
+            "ticker": "SPY",
+            "quantity": 2,
+            "avg_cost": 400,
+            "currency": "USD"
+          }
+        ],
+        "summarize_allocation": {
+          "mode": "holdings",
+          "lines": [
+            "SPY: qty=2, ~100.0% of share count"
+          ],
+          "position_count": 1
+        },
+        "flag_concentration": {
+          "flag": "warning",
+          "top_holding": "SPY",
+          "top_share_pct": 100.0
+        },
+        "match_tickers_to_positions": {
+          "matched_in_portfolio": [
+            "SPY"
+          ],
+          "not_held": []
+        },
+        "snapshot_risk_profile": {
+          "risk_profile": null,
+          "base_currency": null,
+          "user_id": "u1"
+        }
+      },
+      "utterance": "[Portfolio] 1 positions on file; largest line is SPY (~100.0% of shares); concentration flag=warning."
+    },
+    {
+      "agent": "market",
+      "round": 2,
+      "tool_results": {
+        "get_quote": {
+          "ticker": "SPY",
+          "price": 115.0,
+          "currency": "USD",
+          "name": "SPY",
+          "sector": "Technology"
+        },
+        "get_recent_returns": {
+          "ticker": "SPY",
+          "return_pct": null,
+          "note": "insufficient_history"
+        },
+        "sector_benchmark_stub": {
+          "sector": "Technology",
+          "benchmark_proxy": "MSCI World sector ETF (stub)",
+          "comment": "Benchmark levels not fetched in stub mode."
+        },
+        "symbol_resolve": {
+          "candidates": [
+            "SPY"
+          ],
+          "note": "ticker-shaped"
+        },
+        "market_hours_stub": {
+          "exchange": "US",
+          "regular_session": "09:30-16:00 local (stub)",
+          "status": "unknown_clock"
+        }
+      },
+      "utterance": "[Market] focus on SPY; last price about 115.0 USD."
+    },
+    {
+      "agent": "conversation",
+      "round": 3,
+      "tool_results": {
+        "prior_user_turns": [
+          "What should I know about my portfolio and SPY?",
+          "What should I know about my portfolio and SPY?",
+          "What should I know about my portfolio and SPY?",
+          "What should I know about my portfolio and SPY?",
+          "What should I know about my portfolio and SPY?",
+          "What should I know about my portfolio and SPY?",
+          "What should I know about my portfolio and SPY?",
+          "What should I know about my portfolio and SPY?"
+        ],
+        "format_numbered_list": "1. \"What should I know about my portfolio and SPY?\"\n2. \"What should I know about my portfolio and SPY?\"\n3. \"What should I know about my portfolio and SPY?\"\n4. \"What should I know about my portfolio and SPY?\"\n5. \"What should I know about my portfolio and SPY?\"",
+        "thread_summary_stub": "assistant: [Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_ | user: What should I know about my portfolio and SPY? | assistant: [Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_ | user: What should I know about my portfolio and SPY? | assistant: [Portfolio] 1 positions on file. Concentration flag=warning top=SPY (100.0% by share count). Risk snapshot: {'risk_profile': None, 'base_currency': None, 'user_ | user: What should I know about my portfolio and SPY?",
+        "disclaimer_block": "Educational context only — not personalised investment advice. Past performance does not predict future results.",
+        "suggest_handoff_intent": {
+          "suggested_intent": "portfolio_health",
+          "last_intent": "investment_strategy"
+        }
+      },
+      "utterance": "[Conversation] 8 user lines in the rolling window; handoff hint → portfolio_health."
+    }
+  ],
+  "orchestrator_meta": {
+    "session_id": "sess_collab_smoke",
+    "classification_agent": "investment_strategy",
+    "classification_intent": "strategy"
+  }
+}

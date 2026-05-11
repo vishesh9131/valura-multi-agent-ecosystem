@@ -1,0 +1,44 @@
+{
+  "session_id": "prompt-injection",
+  "events": [
+    {
+      "event": "meta",
+      "data": {
+        "stage": "received",
+        "request_id": "cc20ade0-0464-47c0-a59d-8fc4325200c3",
+        "session_id": "prompt-injection"
+      }
+    },
+    {
+      "event": "meta",
+      "data": {
+        "stage": "safety",
+        "blocked": true,
+        "category": "instruction_manipulation",
+        "latency_ms": 0.03499999729683623
+      }
+    },
+    {
+      "event": "token",
+      "data": {
+        "delta": "That message tries to override how I'm supposed to behave — for example by asking me to ignore earlier instructions or to treat attacker text as new system rules. I won't follow those directives. Ask a normal investing question in plain language instead."
+      }
+    },
+    {
+      "event": "structured",
+      "data": {
+        "agent": "safety_guard",
+        "blocked": true,
+        "category": "instruction_manipulation",
+        "message": "That message tries to override how I'm supposed to behave — for example by asking me to ignore earlier instructions or to treat attacker text as new system rules. I won't follow those directives. Ask a normal investing question in plain language instead."
+      }
+    },
+    {
+      "event": "done",
+      "data": {
+        "request_id": "cc20ade0-0464-47c0-a59d-8fc4325200c3",
+        "blocked": true
+      }
+    }
+  ]
+}

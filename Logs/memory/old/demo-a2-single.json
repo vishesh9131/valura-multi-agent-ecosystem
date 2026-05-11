@@ -1,0 +1,70 @@
+{
+  "session_id": "demo-a2-single",
+  "turns": [
+    {
+      "role": "user",
+      "content": "how is my portfolio doing",
+      "ts": 1778506922.953065
+    },
+    {
+      "role": "assistant",
+      "content": "This looks like your first user message in this session — there isn't an earlier question to repeat yet.",
+      "ts": 1778506922.956703
+    },
+    {
+      "role": "user",
+      "content": "how is my portfolio doing",
+      "ts": 1778507132.615791
+    },
+    {
+      "role": "assistant",
+      "content": "Before this message, your last question was: \"how is my portfolio doing\"\n\n(Chat model unavailable — answers are limited to thread replay.)",
+      "ts": 1778507132.642439
+    },
+    {
+      "role": "user",
+      "content": "how is my portfolio doing",
+      "ts": 1778507152.324841
+    },
+    {
+      "role": "assistant",
+      "content": "Before this message, your last question was: \"how is my portfolio doing\"\n\n(Chat model unavailable — answers are limited to thread replay.)",
+      "ts": 1778507152.332494
+    },
+    {
+      "role": "user",
+      "content": "how is my portfolio doing",
+      "ts": 1778507253.229921
+    },
+    {
+      "role": "assistant",
+      "content": "Before this message, your last question was: \"how is my portfolio doing\"\n\n(Chat model unavailable — answers are limited to thread replay.)",
+      "ts": 1778507253.236507
+    },
+    {
+      "role": "user",
+      "content": "how is my portfolio doing",
+      "ts": 1778507289.127393
+    },
+    {
+      "role": "assistant",
+      "content": "Your portfolio has grown a lot, but it's entirely invested in just one stock, NVDA. The most important thing to know is that having all your money in a single company is risky—if NVDA drops, your whole portfolio will too. Consider adding other stocks or funds to spread out your risk. Start by looking into one or two new investments in different sectors.",
+      "ts": 1778507298.933554
+    },
+    {
+      "role": "user",
+      "content": "how is my portfolio doing",
+      "ts": 1778507382.845524
+    },
+    {
+      "role": "assistant",
+      "content": "Your portfolio has grown impressively, up nearly 80% in the past year. However, all your money is in just one stock—NVDA—which makes your investment very risky. The most important thing is to reduce this risk by spreading your money across different stocks or funds. Start by researching one or two new investments outside of technology.",
+      "ts": 1778507387.511033
+    }
+  ],
+  "last_intent": "portfolio_health",
+  "last_tickers": [],
+  "updated_at": 1778507387.511039,
+  "discussion_log": [],
+  "orchestrator_meta": {}
+}

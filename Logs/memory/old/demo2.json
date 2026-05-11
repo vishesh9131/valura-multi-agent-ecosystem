@@ -1,0 +1,20 @@
+{
+  "session_id": "demo2",
+  "turns": [
+    {
+      "role": "user",
+      "content": "how is my portfolio doing",
+      "ts": 1778506893.044354
+    },
+    {
+      "role": "assistant",
+      "content": "This looks like your first user message in this session — there isn't an earlier question to repeat yet.",
+      "ts": 1778506893.053371
+    }
+  ],
+  "last_intent": "general_query",
+  "last_tickers": [],
+  "updated_at": 1778506893.053371,
+  "discussion_log": [],
+  "orchestrator_meta": {}
+}

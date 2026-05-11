@@ -1,0 +1,279 @@
+{
+  "session_id": "risk-concentration",
+  "turns": [
+    {
+      "role": "user",
+      "content": "Am I too exposed to AI stocks?",
+      "ts": 1778510840.8360581
+    },
+    {
+      "role": "assistant",
+      "content": "Your portfolio is currently highly concentrated in AI-related stocks, with about 82% allocated to NVIDIA (NVDA) and AMD—both central to the AI hardware and infrastructure space. NVDA alone represents nearly half the portfolio. This level of concentration is well above what’s typically considered moderate risk, especially given your stated preference for a moderate risk profile.\n\nAll analysts agree that this structure exposes you to significant concentration risk: your returns—and potential losses—are closely tied to the fate of just a few companies within a single, high-growth sector. If there’s a negative event in the AI sector or with one of these companies, your portfolio could be disproportionately affected. This is especially important to note because you only hold three positions in total, further amplifying this risk.\n\nOn the positive side, recent momentum for NVDA has been strong, with the stock up about 8.8% over the past month. The current market tone still favors AI leaders, and trend-following strategies often recommend staying with winners as long as the positive momentum persists. However, momentum can shift quickly, and high concentration means both gains and losses are magnified.\n\nIn summary, your exposure to AI stocks is significantly above average for a moderate risk portfolio. There’s consensus that diversification would help reduce the risk of a single sector or stock event severely impacting your investments. You might consider gradually trimming your largest positions, adding exposure to other sectors, or setting caps on individual holdings. Alternatively, if you’re comfortable with the current trend and volatility, you could wait and monitor for any signs of momentum reversal, but be aware that this approach carries heightened risk.",
+      "ts": 1778510865.814097
+    },
+    {
+      "role": "user",
+      "content": "Can you tell me what was my previous query",
+      "ts": 1778510894.0431921
+    },
+    {
+      "role": "assistant",
+      "content": "Your previous query was:  \n\"Am I too exposed to AI stocks?\"",
+      "ts": 1778510896.9068139
+    }
+  ],
+  "last_intent": "general_query",
+  "last_tickers": [],
+  "updated_at": 1778510896.906815,
+  "discussion_log": [
+    {
+      "agent": "portfolio",
+      "round": 1,
+      "tool_results": {
+        "list_positions": [
+          {
+            "ticker": "NVDA",
+            "exchange": null,
+            "quantity": 100.0,
+            "avg_cost": 90.0,
+            "currency": "USD",
+            "purchased_at": null
+          },
+          {
+            "ticker": "AMD",
+            "exchange": null,
+            "quantity": 80.0,
+            "avg_cost": 110.0,
+            "currency": "USD",
+            "purchased_at": null
+          },
+          {
+            "ticker": "TSLA",
+            "exchange": null,
+            "quantity": 40.0,
+            "avg_cost": 180.0,
+            "currency": "USD",
+            "purchased_at": null
+          }
+        ],
+        "summarize_allocation": {
+          "mode": "holdings",
+          "lines": [
+            "NVDA: qty=100, ~45.5% of share count",
+            "AMD: qty=80, ~36.4% of share count",
+            "TSLA: qty=40, ~18.2% of share count"
+          ],
+          "position_count": 3
+        },
+        "flag_concentration": {
+          "flag": "warning",
+          "top_holding": "NVDA",
+          "top_share_pct": 45.5
+        },
+        "match_tickers_to_positions": {
+          "matched_in_portfolio": [
+            "NVDA",
+            "AMD",
+            "TSLA"
+          ],
+          "not_held": []
+        },
+        "snapshot_risk_profile": {
+          "risk_profile": "moderate",
+          "base_currency": "USD",
+          "user_id": "u1"
+        }
+      },
+      "utterance": "Portfolio is highly concentrated in AI-related stocks, exceeding typical moderate risk guidelines.",
+      "internal": {
+        "deliberation": "[tools/portfolio] positions=3 concentration=warning top=NVDA top_share=45.5% risk_profile=moderate currency=USD",
+        "facts": {
+          "position_count": 3,
+          "conc_flag": "warning",
+          "top_holding": "NVDA",
+          "top_share_pct": 45.5,
+          "risk_profile": "moderate",
+          "base_currency": "USD"
+        },
+        "model_answer": "Based on your current holdings, approximately 82% of your portfolio is allocated to NVDA and AMD, both of which are core players in the AI sector. This level of concentration in AI-related stocks is significantly above what is generally considered moderate risk. The flagged concentration warning for NVDA further highlights this exposure. Diversification may be warranted if you wish to align more closely with a moderate risk profile.",
+        "reasoning_trace": [
+          "Portfolio has 3 positions: NVDA (45.5%), AMD (36.4%), TSLA (18.2%).",
+          "NVDA and AMD are both heavily associated with AI hardware and infrastructure.",
+          "Combined, NVDA and AMD make up ~82% of the portfolio by share count.",
+          "Concentration warning flagged for NVDA as top holding.",
+          "User's stated risk profile is 'moderate', but current allocation is highly concentrated in AI-related stocks."
+        ]
+      },
+      "llm": {
+        "reasoning_trace": [
+          "Portfolio has 3 positions: NVDA (45.5%), AMD (36.4%), TSLA (18.2%).",
+          "NVDA and AMD are both heavily associated with AI hardware and infrastructure.",
+          "Combined, NVDA and AMD make up ~82% of the portfolio by share count.",
+          "Concentration warning flagged for NVDA as top holding.",
+          "User's stated risk profile is 'moderate', but current allocation is highly concentrated in AI-related stocks."
+        ],
+        "confidence_0_100": 90,
+        "stance_headline": "Portfolio is highly concentrated in AI-related stocks, exceeding typical moderate risk guidelines.",
+        "answer": "Based on your current holdings, approximately 82% of your portfolio is allocated to NVDA and AMD, both of which are core players in the AI sector. This level of concentration in AI-related stocks is significantly above what is generally considered moderate risk. The flagged concentration warning for NVDA further highlights this exposure. Diversification may be warranted if you wish to align more closely with a moderate risk profile.",
+        "abstain": false,
+        "abstain_reason": ""
+      }
+    },
+    {
+      "agent": "market",
+      "round": 2,
+      "tool_results": {
+        "get_quote": {
+          "ticker": "NVDA",
+          "price": 219.77000427246094,
+          "currency": "USD",
+          "name": "NVIDIA Corporation",
+          "sector": "Technology"
+        },
+        "get_recent_returns": {
+          "ticker": "NVDA",
+          "lookback_days": 21,
+          "return_pct": 8.77
+        },
+        "sector_benchmark_stub": {
+          "sector": "Technology",
+          "benchmark_proxy": "MSCI World sector ETF (stub)",
+          "comment": "Benchmark levels not fetched in stub mode."
+        },
+        "symbol_resolve": {
+          "candidates": [
+            "NVDA"
+          ],
+          "note": "ticker-shaped"
+        },
+        "market_hours_stub": {
+          "exchange": "US",
+          "regular_session": "09:30-16:00 local (stub)",
+          "status": "unknown_clock"
+        }
+      },
+      "utterance": "Portfolio is highly exposed to AI via NVDA concentration",
+      "internal": {
+        "deliberation": "[tools/market] symbol=NVDA last_px_usd=219.77 sector=Technology ret21d=8.77 momentum_label=strong book_flag=warning book_top=NVDA",
+        "facts": {
+          "ticker": "NVDA",
+          "price": 219.77000427246094,
+          "sector": "Technology",
+          "return_pct": 8.77,
+          "returns_note": null,
+          "momentum_label": "strong"
+        },
+        "model_answer": "Yes, your portfolio is heavily exposed to AI stocks due to the large (45.5%) allocation to NVIDIA, a leading AI company. With only three positions and such high concentration in one AI-driven technology stock, your portfolio's performance and risk are strongly tied to the fortunes of the AI sector and specifically to NVIDIA.",
+        "reasoning_trace": [
+          "The portfolio has only 3 positions, indicating limited diversification.",
+          "The top holding, NVDA (NVIDIA), is 45.5% of the portfolio, which is a very high concentration.",
+          "NVDA is a leading AI-related stock in the Technology sector, so this concentration represents significant exposure to AI themes.",
+          "Recent return for NVDA is +8.77% over the last 21 days, suggesting strong recent performance, but this does not reduce concentration risk.",
+          "Sector benchmark data is not available, so relative sector exposure can't be precisely compared, but the concentration alone is a red flag."
+        ]
+      },
+      "llm": {
+        "reasoning_trace": [
+          "The portfolio has only 3 positions, indicating limited diversification.",
+          "The top holding, NVDA (NVIDIA), is 45.5% of the portfolio, which is a very high concentration.",
+          "NVDA is a leading AI-related stock in the Technology sector, so this concentration represents significant exposure to AI themes.",
+          "Recent return for NVDA is +8.77% over the last 21 days, suggesting strong recent performance, but this does not reduce concentration risk.",
+          "Sector benchmark data is not available, so relative sector exposure can't be precisely compared, but the concentration alone is a red flag."
+        ],
+        "confidence_0_100": 90,
+        "stance_headline": "Portfolio is highly exposed to AI via NVDA concentration",
+        "answer": "Yes, your portfolio is heavily exposed to AI stocks due to the large (45.5%) allocation to NVIDIA, a leading AI company. With only three positions and such high concentration in one AI-driven technology stock, your portfolio's performance and risk are strongly tied to the fortunes of the AI sector and specifically to NVIDIA.",
+        "abstain": false,
+        "abstain_reason": ""
+      }
+    },
+    {
+      "agent": "risk",
+      "round": 3,
+      "tool_results": {},
+      "utterance": "Your AI exposure is excessive for a 'moderate' risk profile—concentration risk is the key issue, not just recent performance.",
+      "llm": {
+        "reasoning_trace": [
+          "Both analysts correctly flag extreme concentration: NVDA alone is 45.5%, and NVDA/AMD together are 82% of the portfolio—both are AI-linked tech stocks.",
+          "The 'moderate' risk profile is not being respected: such heavy sector and single-stock exposure is typical of aggressive or speculative risk profiles, not moderate ones.",
+          "Momentum is currently strong for NVDA, but this does not mitigate the risk of a sharp reversal or sector-specific shock (e.g., regulatory, supply chain, or AI backlash).",
+          "The portfolio has only three positions, which compounds idiosyncratic risk and increases the likelihood of large drawdowns if AI sentiment sours.",
+          "There's a mismatch between the user's stated risk tolerance and the actual risk embedded in the portfolio structure: concentration risk, lack of diversification, and sector bet all exceed moderate risk norms."
+        ],
+        "confidence_0_100": 95,
+        "stance_headline": "Your AI exposure is excessive for a 'moderate' risk profile—concentration risk is the key issue, not just recent performance.",
+        "answer": "You are significantly overexposed to AI stocks, especially given your stated 'moderate' risk tolerance. With 82% of your portfolio in NVDA and AMD, you face major concentration risk: a single sector or company event could severely impact your portfolio. While recent momentum for NVDA is strong, this does not offset the structural risk from lack of diversification. If you wish to align with a moderate risk profile, reducing single-stock and sector exposure is strongly advised.",
+        "abstain": false,
+        "abstain_reason": ""
+      },
+      "internal": {
+        "model_answer": "You are significantly overexposed to AI stocks, especially given your stated 'moderate' risk tolerance. With 82% of your portfolio in NVDA and AMD, you face major concentration risk: a single sector or company event could severely impact your portfolio. While recent momentum for NVDA is strong, this does not offset the structural risk from lack of diversification. If you wish to align with a moderate risk profile, reducing single-stock and sector exposure is strongly advised.",
+        "reasoning_trace": [
+          "Both analysts correctly flag extreme concentration: NVDA alone is 45.5%, and NVDA/AMD together are 82% of the portfolio—both are AI-linked tech stocks.",
+          "The 'moderate' risk profile is not being respected: such heavy sector and single-stock exposure is typical of aggressive or speculative risk profiles, not moderate ones.",
+          "Momentum is currently strong for NVDA, but this does not mitigate the risk of a sharp reversal or sector-specific shock (e.g., regulatory, supply chain, or AI backlash).",
+          "The portfolio has only three positions, which compounds idiosyncratic risk and increases the likelihood of large drawdowns if AI sentiment sours.",
+          "There's a mismatch between the user's stated risk tolerance and the actual risk embedded in the portfolio structure: concentration risk, lack of diversification, and sector bet all exceed moderate risk norms."
+        ]
+      }
+    },
+    {
+      "agent": "momentum",
+      "round": 4,
+      "tool_results": {},
+      "utterance": "Momentum still favors patience with AI exposure despite concentration risk",
+      "llm": {
+        "reasoning_trace": [
+          "Recent performance for NVDA is notably strong (+8.77% over the last 21 days), and the stock maintains a 'strong' momentum label, indicating continued leadership within the AI and Technology sector.",
+          "Momentum tends to persist, especially in trending sectors like AI/Tech, so reducing exposure solely due to concentration might mean missing further upside if the trend continues.",
+          "However, the portfolio is highly concentrated (NVDA at 45.5%, AMD at 36.4%), which amplifies both upside and downside potential—this is a risk factor, but not necessarily a sell signal while momentum remains strong.",
+          "Sector context: AI/Tech remains a leadership theme in the market, and NVDA's ongoing strength reinforces the case for patience with current winners.",
+          "Momentum/trend-following approaches typically advocate staying with strong performers until the trend shows signs of reversing, rather than preemptively de-risking based on concentration alone."
+        ],
+        "confidence_0_100": 80,
+        "stance_headline": "Momentum still favors patience with AI exposure despite concentration risk",
+        "answer": "While your portfolio is highly concentrated in AI stocks, especially NVDA, the strong recent performance and sector leadership suggest that momentum remains intact. Trend-following logic supports maintaining exposure to these leaders as long as the positive trend persists. However, be aware that high concentration increases volatility and potential drawdown risk if momentum fades. For now, there's no clear signal to reduce AI exposure based solely on recent tape; watch for any sign of momentum reversal as your cue to reconsider.",
+        "abstain": false,
+        "abstain_reason": ""
+      },
+      "internal": {
+        "model_answer": "While your portfolio is highly concentrated in AI stocks, especially NVDA, the strong recent performance and sector leadership suggest that momentum remains intact. Trend-following logic supports maintaining exposure to these leaders as long as the positive trend persists. However, be aware that high concentration increases volatility and potential drawdown risk if momentum fades. For now, there's no clear signal to reduce AI exposure based solely on recent tape; watch for any sign of momentum reversal as your cue to reconsider.",
+        "reasoning_trace": [
+          "Recent performance for NVDA is notably strong (+8.77% over the last 21 days), and the stock maintains a 'strong' momentum label, indicating continued leadership within the AI and Technology sector.",
+          "Momentum tends to persist, especially in trending sectors like AI/Tech, so reducing exposure solely due to concentration might mean missing further upside if the trend continues.",
+          "However, the portfolio is highly concentrated (NVDA at 45.5%, AMD at 36.4%), which amplifies both upside and downside potential—this is a risk factor, but not necessarily a sell signal while momentum remains strong.",
+          "Sector context: AI/Tech remains a leadership theme in the market, and NVDA's ongoing strength reinforces the case for patience with current winners.",
+          "Momentum/trend-following approaches typically advocate staying with strong performers until the trend shows signs of reversing, rather than preemptively de-risking based on concentration alone."
+        ]
+      }
+    },
+    {
+      "agent": "synthesis",
+      "round": 5,
+      "tool_results": {},
+      "utterance": "Your portfolio is currently highly concentrated in AI-related stocks, with about 82% allocated to NVIDIA (NVDA) and AMD—both central to the AI hardware and infrastructure space. NVDA alone represents nearly half the portfolio. This level of concentration is well above what’s typically considered moderate risk, especially given your stated preference for a moderate risk profile.\n\nAll analysts agree that this structure exposes you to significant concentration risk: your returns—and potential losses—are closely tied to the fate of just a few companies within a single, high-growth sector. If there’s a negative event in the AI sector or with one of these companies, your portfolio could be disproportionately affected. This is especially important to note because you only hold three positions in total, further amplifying this risk.\n\nOn the positive side, recent momentum for NVDA has been strong, with the stock up about 8.8% over the past month. The current market tone still favors AI leaders, and trend-following strategies often recommend staying with winners as long as the positive momentum persists. However, momentum can shift quickly, and high concentration means both gains and losses are magnified.\n\nIn summary, your exposure to AI stocks is significantly above average for a moderate risk portfolio. There’s consensus that diversification would help reduce the risk of a single sector or stock event severely impacting your investments. You might consider gradually trimming your largest positions, adding exposure to other sectors, or setting caps on individual holdings. Alternatively, if you’re comfortable with the current trend and volatility, you could wait and monitor for any signs of momentum reversal, but be aware that this approach carries heightened risk.\n\nEducational context only — not personalised investment advice. Past performance does not predict future results.",
+      "collaboration_meta": {
+        "mode": "llm_multiagent",
+        "integration": "streamed_chair",
+        "tension": "high",
+        "risk_score_proxy": 95,
+        "momentum_score_proxy": 80
+      }
+    }
+  ],
+  "orchestrator_meta": {
+    "session_id": "risk-concentration",
+    "classification_agent": "portfolio_health",
+    "classification_intent": "assess concentration in AI stocks",
+    "sparse_profile": "full",
+    "collaboration_rounds_effective": 3,
+    "orchestration_plan": [
+      "portfolio",
+      "market",
+      "risk",
+      "momentum",
+      "synthesis"
+    ],
+    "multiagent_llm": true
+  }
+}

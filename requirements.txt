@@ -1,0 +1,37 @@
+# =============================================================================
+# Valura AI — Team Lead Assignment — Core Dependencies
+# =============================================================================
+# This is the minimal set we ship. Add what you need; justify additions in your README.
+
+# --- Web framework + streaming ---
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
+sse-starlette>=1.8.2       # SSE is required by the assignment; this is the path of least resistance
+httpx>=0.27.0              # async HTTP client + TestClient
+
+# --- Validation ---
+pydantic>=2.7.0
+pydantic-settings>=2.2.0   # 12-factor settings via env
+
+# --- LLM ---
+openai>=1.30.0             # OpenAI Python SDK — also drives the VLLM provider via base_url override
+
+# --- Market data ---
+yfinance>=0.2.40           # quick prices/history; cached in-process so tests don't hit the network
+pandas>=2.2.0
+numpy>=1.26.0
+
+# --- Resilience ---
+tenacity>=8.3.0            # retry around the LLM call
+cachetools>=5.3.0          # tiny TTL cache for prices and (optional) classifier dedupe
+
+# --- Utilities ---
+python-dotenv>=1.0.0
+
+# --- MCP (Assignment 2 multi-agent tool servers) ---
+mcp>=1.2.0
+
+# --- Testing ---
+pytest>=8.2.0
+pytest-asyncio>=0.23.0
+pytest-mock>=3.14.0

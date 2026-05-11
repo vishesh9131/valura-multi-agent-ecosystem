@@ -1,0 +1,90 @@
+{
+  "session_id": "sess_non_collab",
+  "turns": [
+    {
+      "role": "user",
+      "content": "hi there",
+      "ts": 1778505164.1183748
+    },
+    {
+      "role": "assistant",
+      "content": "This looks like your first user message in this session — there isn't an earlier question to repeat yet.",
+      "ts": 1778505164.427706
+    },
+    {
+      "role": "user",
+      "content": "hi there",
+      "ts": 1778505171.892108
+    },
+    {
+      "role": "assistant",
+      "content": "Before this message, your last question was: \"hi there\"\n\n(Chat model unavailable — answers are limited to thread replay.)",
+      "ts": 1778505172.180501
+    },
+    {
+      "role": "user",
+      "content": "hi there",
+      "ts": 1778505189.366034
+    },
+    {
+      "role": "assistant",
+      "content": "Before this message, your last question was: \"hi there\"\n\n(Chat model unavailable — answers are limited to thread replay.)",
+      "ts": 1778505189.784075
+    },
+    {
+      "role": "user",
+      "content": "hi there",
+      "ts": 1778505337.411693
+    },
+    {
+      "role": "assistant",
+      "content": "Before this message, your last question was: \"hi there\"\n\n(Chat model unavailable — answers are limited to thread replay.)",
+      "ts": 1778505337.70018
+    },
+    {
+      "role": "user",
+      "content": "hi there",
+      "ts": 1778507035.685683
+    },
+    {
+      "role": "assistant",
+      "content": "Before this message, your last question was: \"hi there\"\n\n(Chat model unavailable — answers are limited to thread replay.)",
+      "ts": 1778507035.9789069
+    },
+    {
+      "role": "user",
+      "content": "hi there",
+      "ts": 1778507208.71282
+    },
+    {
+      "role": "assistant",
+      "content": "Here are your prior user messages in order:\n\n1. hi there\n2. hi there\n3. hi there\n4. hi there\n\nLet me know if you have any questions about investing or want to discuss your portfolio!",
+      "ts": 1778507212.269073
+    },
+    {
+      "role": "user",
+      "content": "hi there",
+      "ts": 1778507589.196008
+    },
+    {
+      "role": "assistant",
+      "content": "Here are your prior user messages in order:\n\n1. hi there\n2. hi there\n3. hi there\n4. hi there\n5. hi there\n\nIf you have any questions about investing, stocks, or your portfolio, feel free to ask!",
+      "ts": 1778507592.072096
+    },
+    {
+      "role": "user",
+      "content": "hi there",
+      "ts": 1778507857.676492
+    },
+    {
+      "role": "assistant",
+      "content": "Here are your prior user messages in order:\n\n1. hi there\n2. hi there\n3. hi there\n4. hi there\n5. hi there\n6. hi there\n\nLet me know if you have any questions about investing or want to learn more about building your portfolio!",
+      "ts": 1778507860.456425
+    }
+  ],
+  "last_intent": "general_query",
+  "last_tickers": [],
+  "updated_at": 1778507860.4564312,
+  "discussion_log": [],
+  "orchestrator_meta": {}
+}

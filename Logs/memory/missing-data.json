@@ -1,0 +1,42 @@
+{
+  "session_id": "missing-data",
+  "turns": [
+    {
+      "role": "user",
+      "content": "Analyze XYZ_UNKNOWN stock.",
+      "ts": 1778518848.888774
+    },
+    {
+      "role": "assistant",
+      "content": "**XYZ** (Block, Inc.) — last price in feed: 73.63500213623047 USD\nSector tag (may be stale): Technology.\nRough ~21d return in this stub window: -0.35%.\n\nEducational snapshot only — not investment advice. Quotes can be delayed or wrong; verify elsewhere.",
+      "ts": 1778518859.324832
+    },
+    {
+      "role": "user",
+      "content": "Analyze XYZ_UNKNOWN stock.",
+      "ts": 1778519107.5290592
+    },
+    {
+      "role": "assistant",
+      "content": "**XYZ** (Block, Inc.) — last price in feed: 73.63500213623047 USD\nSector tag (may be stale): Technology.\nRough ~21d return in this stub window: -0.35%.\n\nEducational snapshot only — not investment advice. Quotes can be delayed or wrong; verify elsewhere.",
+      "ts": 1778519110.062506
+    },
+    {
+      "role": "user",
+      "content": "Analyze XYZ_UNKNOWN stock.",
+      "ts": 1778519243.2994828
+    },
+    {
+      "role": "assistant",
+      "content": "I'd normally pull live market data, news, and a quick read on this one — but the market research agent isn't wired up in this build yet.",
+      "ts": 1778519248.202
+    }
+  ],
+  "last_intent": "market_research",
+  "last_tickers": [
+    "XYZ_UNKNOWN"
+  ],
+  "updated_at": 1778519248.202,
+  "discussion_log": [],
+  "orchestrator_meta": {}
+}
