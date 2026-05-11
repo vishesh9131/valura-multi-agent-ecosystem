@@ -305,6 +305,110 @@ That implies hidden exposure and factor-style reasoning, not just ticker countin
 
 ---
 
+## Related reading (papers & foundations)
+
+Work consulted or aligned with this assignment’s orchestration design—not an exhaustive bibliography.
+
+### Core multi-agent orchestration papers
+
+#### 1. AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation
+
+**Why it matters** — This is the closest fit to the architecture described here: a pipeline such as portfolio → risk → momentum → synthesis mirrors **conversable agent orchestration** in AutoGen.
+
+**Concepts aligned with this system**
+
+- Specialized agents  
+- Conversational coordination  
+- A synthesis / chair role  
+- Clear role separation  
+- Collaborative workflows  
+- Inter-agent dialogue  
+
+**Insight** — Having later agents **consume outputs from earlier agents** matches AutoGen’s idea of **conversation programming**: coordination through structured multi-turn exchange, not isolated one-shot calls.
+
+---
+
+#### 2. Towards Effective GenAI Multi-Agent Collaboration
+
+**Why it matters** — Aligns with the deliberate **risk vs momentum tension** in this stack: agents are allowed to disagree before synthesis.
+
+**Parallels**
+
+- Disagreement-aware outputs  
+- Collaborative debate  
+- Arbitration at synthesis  
+
+This sits in the same family of ideas as **multi-agent collaborative deliberation** discussed in CAMEL-style and related collaboration frameworks.
+
+---
+
+#### 3. Exploration of LLM Multi-Agent Application Implementation Based on LangGraph + CrewAI
+
+**Why it matters** — Maps cleanly onto an **orchestration graph**: routing, collaborative planning, and a synthesis stage.
+
+**Overlap with this implementation**
+
+- Intent classifier → specialized agents → synthesis  
+- State-like propagation across steps  
+- Close in spirit to **LangGraph-style** state-machine orchestration described in that line of work  
+
+---
+
+#### 4. Gradientsys: A Multi-Agent LLM Scheduler with ReAct Orchestration
+
+**Why it matters** — Connects to **orchestration metadata**, **streaming** collaboration, **staged** execution, and retry/fallback behavior.
+
+**Overlap**
+
+- Fields such as `collaboration_rounds_effective` and panel metadata like `tension` resemble **scheduler-driven orchestration state**: explicit stages and observable coordination signals rather than a single opaque completion.
+
+---
+
+### Memory & shared-state reasoning
+
+#### 5. Multi-Agent Systems (Wikipedia overview)
+
+**Why it matters** — Foundational MAS vocabulary: coordination, negotiation, communication, distributed reasoning, cooperation.
+
+**Relevant idea** — The direction taken here—**shared derived state** (e.g. overlap stubs) flowing forward—is consistent with classic MAS emphasis on **communication and coordinated reasoning**, not just parallel independent agents.
+
+---
+
+#### 6. A Large-Scale Study on the Development and Issues of Multi-Agent AI Systems
+
+**Why it matters** — Documents failure modes that show up in practice: fragile orchestration, coordination bugs, hallucination propagation, maintenance cost.
+
+**Relevant finding** — **Agent coordination challenges** rank among the hardest practical issues in real MAS deployments—consistent with an iterative debugging path from naive “multi-label” setups toward explicit orchestration and shared state.
+
+---
+
+### Debate & multi-perspective reasoning
+
+#### 7. Multi-Agent LLM Applications: A Review of Current Research
+
+**Why it matters** — The **risk agent vs momentum agent** split here mirrors **debate-oriented multi-agent reasoning**: competing perspectives are surfaced before synthesis, rather than collapsing to one view early.
+
+**Parallel** — Survey and review work in this area catalogs architectures where agents argue, critique, or alternate roles—useful background if you want to formalize tension metrics, stopping rules, or explicit “pro/con” rounds before the chair answer.
+
+---
+
+#### 8. Awesome Multi-Agent Papers Repository
+
+**Resource** — [kyegomez/awesome-multi-agent-papers](https://github.com/kyegomez/awesome-multi-agent-papers) (curated list of multi-agent LLM papers and themes).
+
+**Why it matters** — Many listed architectures resemble patterns worth borrowing: **collaborative debate**, **hierarchical reasoning**, **agent swarms**, **role specialization**, and **thought exchange** across agents.
+
+**Themes that align with cross-agent synthesis evolution**
+
+- Exchange-of-Thought  
+- LongAgent  
+- MAS-Zero  
+- K-Level reasoning  
+
+Together these are good pointers if you extend this codebase toward richer multi-perspective passes or structured disagreement before synthesis.
+
+---
+
 ## Final architectural evolution
 
 | Started as                      | Evolved into                                                                                                                                                 |
